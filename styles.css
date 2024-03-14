@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    font-family: "Lancelot", serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    font-size: 30px;  
+}
+
+body {
+    font-size: 20px;
+}
+
+a:link {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: hotpink;
+}
+
+a:hover {
+    color: aqua;
+    text-align: center;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: flex-start;
+    list-style-type: none;   
+}
+
+.header-nav-right {
+    margin-left: 2rem;   
+}
+
+.article {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-bottom: 2rem;
+}
+
+.sewpic {
+    text-align: center;
+}
+
+.gallery__title {
+    text-align: center;   
+}
+
+.howto__ribbonskirt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 3px solid hotpink;
+}
+
+.howto__ribbonshirt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 3px solid hotpink;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.resources {
+    margin-left: 2rem;
+}
+
+.instructions {
+    margin-left: 2rem;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+    float: right;   
+}
+
+.gallery {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-bottom: 2rem;
+}
+
+.threadpic {
+    text-align: center;   
+}
+
+.sub-name {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}   
+    
+.sub-email {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+    font-family: "Lancelot", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: italic;
+    color: white;
+}
+
+.copyright-message {
+    font-style: normal;
+    font-size: 18px;
+}
+
